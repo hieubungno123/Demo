@@ -1,0 +1,10 @@
+Tiền sử lý văn bản 
+    Chuyển văn bản thô thành dạng thuật toán TF-IDF để tính toán chính xác
+    Tạo ra 200 văn bản file đã đã đc chuẩn hóa (lưu vào folder riêng - Data_Processed)
+    Bước thực hiện
+        B1: Duyệt nội dung của từng file trong thư mục ./doc
+        B2: Chuyển thành lowercasse (vì thuật toán không thể phân biệt thành chữ thường)
+        B3: Loại bỏ ký tự đặc biệt (dấu câu, ký hiệu, số)
+        B4: Tách từ (tokenization), chia văn bản thành các đơn vị nhỏ nhất có nghĩa
+        B5: Loại bỏ STOPWORDS, xóa các từ phổ biên không mang nhiều giá trị thông tin (vd: "là", "và", "của", "một",,...)
+        B6: Lưu file đã đc xử lý vào thư mục Data_Processed
